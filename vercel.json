@@ -1,10 +1,10 @@
 {
-  "version": 2,
-  "name": "ht",
-  "builds": [
-    { "src": "/src/index.ts", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/src/index.ts" }
-  ]
+    "version": 2,
+    "name": "ht01",
+    "builds": [
+        { "src": "/src/index.ts", "use": "@vercel/node" }
+    ],
+    "routes": [
+        { "src": "/(.*)", "dest": "/src/index.ts" }
+    ]
 }
