@@ -11,6 +11,7 @@ app.use(express.json());
 app.use('/videos', videosRouter);
 app.use('/testing', testingRouter);
 
+
 app.listen(port, host, (): void => {
     console.log(`server started on ${host}:${port}`);
 });
